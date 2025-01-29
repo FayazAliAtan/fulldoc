@@ -1,0 +1,150 @@
+
+a{
+    text-decoration: none;
+}
+#header{
+    color: #fff;
+    background: #e74c3c;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    color: white;
+    padding: 15px 10px;
+    display: block;
+    background: #c0392b;
+}
+
+
+
+.image-side {
+    background-image: url('../images/6.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
+
+.form-side {
+    padding: 50px;
+  }
+
+
+
+ /* Increase the height of the carousel */
+ .carousel-inner {
+    height: 650px;  /* Adjust to your desired height */
+  }
+
+  /* Ensure images cover the height of the carousel */
+  .carousel-item img {
+    object-fit: cover;  /* Ensures images cover the area without distortion */
+    height: 100%;  /* Makes sure the image height is equal to the carousel height */
+    width: 100%;   /* Makes sure the image width is equal to the carousel width */
+  }
+
+  /* Optional: Adjust caption styling */
+
+
+  /* Doctors */
+  .hero-section {
+    background: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .doctor-card {
+    margin-bottom: 20px;
+  }
+
+  .doctor-img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .contact-info {
+    background: #f1f1f1;
+    padding: 50px 0;
+  }
+
+  .booking-form {
+    padding: 50px 0;
+  }
+
+  /* doctor end */
+
+  /* clinic start */
+  .hero-section {
+    background: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+  }
+  .doctor-card {
+    margin-bottom: 20px;
+  }
+  .doctor-img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .contact-info {
+    background: #f1f1f1;
+    padding: 50px 0;
+  }
+  /* clinic end */
+
+  /* appointment start */
+  .appointment-section {
+    background: #f8f9fa;
+    padding: 50px 0;
+  }
+  /* appointment end */
+
+  /* About start */
+  .about-section {
+    padding: 50px 0;
+  }
+  .team-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  /* About end */
+
+  /* d-registration start */
+  .registration-section {
+    padding: 50px 0;
+  }
+  /* d end */
+
+  /* c-registration */
+  .registration-section {
+    padding: 50px 0;
+  }
+  /* c -end */
+
+  /* carousel start */
+  /* Set a fixed height for the carousel */
+#carouselExampleDark {
+  height: 400px; /* Adjust the value as needed */
+  overflow: hidden;
+}
+
+/* Ensure images scale and maintain aspect ratio */
+.carousel-image {
+  object-fit: cover;
+  height: 100%; /* Makes the image fill the container */
+  width: 100%;
+}
+
+/* Optional: Adjust caption position */
+.carousel-caption {
+  bottom: 20px; /* Position caption closer to the bottom */
+}
+/* carousel end */
+
